@@ -12,7 +12,7 @@ var id = function(el) {          return document.getElementById(el);        },
                    c.scrollLeft = 0;
                };
            },
-           speed = 1000; //数值越大越慢
+           speed = 500; //数值越大越慢
        ul.style.width = width*itemCount + 'px'; //加载完后设置容器长度        
        var timer = setInterval(marquee, speed);
        c.onmouseover = function() {
@@ -25,7 +25,7 @@ var id = function(el) {          return document.getElementById(el);        },
 
    //文字横向滚动
 function ScrollImgLeft(){ 
- var speed=1;  //数值越大越慢
+ var speed=13;  //数值越大越慢
   var MyMar = null;
  var scroll_begin = document.getElementById("scroll_begin"); 
  var scroll_end = document.getElementById("scroll_end"); 
