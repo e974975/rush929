@@ -1,0 +1,78 @@
+ *{ padding:0; margin:0;}       /*设置所有对像的内边距为0*/
+body { 
+	text-align:center;/*设置页面居中对齐*/  
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color: #333;
+	}      
+
+#photo-list {
+/* 6张图片的宽度（包含宽度、padding、border、图片间的留白）
+计算：6*(100+2*2+1*2+9) - 9 
+之所以减去9是第6张图片的右边留白 681*/
+   width:900px;  
+/* 图片的宽度（包含高度、padding、border）
+   计算：100+2*2+1*2  */ 
+    height:106px;  
+    margin:10px auto; /*边框外距离文字滚动的距离，原值50*/
+ 	overflow:hidden;     /*溢出部份将被隐藏*/ 
+    border:1px dashed #ccc;  
+}
+/*  文字滚动 */  
+.pad_right{ padding-right:2em;}
+#scroll_div {height:36px;overflow: hidden;white-space: nowrap;width:900px;margin-left:10px;}
+#scroll_begin,#scroll_end {display: inline;}
+/*以上是文字滚动*/
+
+#photo-list ul { list-style:none;}  
+#photo-list li { float:left; padding-right:9px;}  
+#photo-list img { border:1px solid #ddd; background:#fff; padding:2px;}
+
+/*以下是表头图片*/
+#container{
+width:900px;
+height: auto;
+margin: auto;
+background-color:#FFFFFF;
+}
+#header{
+width:900px;
+height:181px;
+background:url(images/header.jpg) no-repeat center;
+}
+/*以上是表头图片*/
+
+#footer{
+width:900px;
+height:75px;
+border-top:1px #b2b2b2 dashed;
+background:url(images/footer_bg.gif) no-repeat bottom;
+}
+.left_footer{
+float:left;
+padding:10px 0 0 10px;
+}
+.right_footer{
+float:right;
+padding:10px 10px 0 0;
+}
+#footer a{
+text-decoration:none;
+padding:0 5px 0 5px;
+color:#afaeaf;
+}
+#footer a:hover{
+color:#f7a849;
+}
+
+/*设置两边灰中间白*/
+.widths{
+clear: none;
+width: 900px;
+height:700px;
+margin-right: auto;
+margin-left: auto;
+background-color: #5A5AAD;
+}

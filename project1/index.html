@@ -1,0 +1,237 @@
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>图片滚屏测试</title>
+	<link rel="stylesheet" type="text/css" href="MyStyle.css">
+</head>
+<body>
+	<!--用JS图片自适应
+	<img src="images/background.jpg" onload="resizeimg(this,600,1024);"/>
+	-->
+
+<div class="widths">    <!--设置两边灰中间白-->
+
+	<div id="container">
+   		<div id="header">
+   		</div>
+  	</div>	
+
+<div id="scroll_div" class="fl"> 
+  		<div id="scroll_begin">
+   			<font color="yellow" size="6">恭喜张凤珍经理获得 <span class="pad_right">10张衡山游门票</span></font>
+   			<font color="yellow" size="6">恭喜陈丽珠经理创佣 <span class="pad_right">10万</span></font>
+   			<font color="yellow" size="6">恭喜刘远经理获得 <span class="pad_right">法国浪漫之旅双人游</span></font>
+   			<font color="yellow" size="6">恭喜方中午经理获得 <span class="pad_right">李某健身俱乐部月票一张</span></font>
+   			<font color="yellow" size="6">恭喜陈钟莲经理获得 <span class="pad_right">区域总监称号</span></font>
+   			<font color="yellow" size="6">恭喜***获得 <span class="pad_right">***奖励</span></font>
+   			<font color="yellow" size="6">恭喜***获得 <span class="pad_right">***奖励</span></font>
+  		</div> 
+  		<div id="scroll_end"></div>
+	<script type="text/javascript" src="MoveEffect.js"></script>
+	</div>
+
+<!--图片向左滚动存在问题暂时屏蔽
+	<div id="photo-list">  
+		<ul id="scroll">  
+			<li><a href="#"><img src="images/1.jpg" width="150px" height="100px" alt="表彰大会1"/></a></li>  
+			<li><a href="#"><img src="images/2.jpg" width="150px" height="100px" alt="现场"/></a></li>  
+			<li><a href="#"><img src="images/3.jpg" width="150px" height="100px" alt="吴总"/></a></li>  
+			<li><a href="#"><img src="images/4.jpg" width="150px" height="100px" alt="现场人山人海"/></a></li>  
+			<li><a href="#"><img src="images/5.jpg" width="150px" height="100px" alt="aaa"/></a></li>  
+			<li><a href="#"><img src="images/6.jpg" width="150px" height="100px" alt="bbb"/></a></li>
+		</ul> 
+	</div>	
+-->
+
+<!--新增图片滚动-->
+	<marquee scrollamount="10" scrolldelay="500" direction= "left" width="900" height="200">
+    	<img src="images/1.jpg" width="250" height="200" alt="表彰大会1"/>
+    	<img src="images/2.jpg" width="250" height="200" alt="现场"/>
+    	<img src="images/3.jpg" width="250" height="200" alt="吴总/>
+    	<img src="images/4.jpg" width="250" height="200" alt="现场人山人海"/>
+    	<img src="images/5.jpg" width="250" height="200" alt="aaa"/>
+    	<img src="images/6.jpg" width="250" height="200" alt="bbb"/>
+    </marquee>
+
+<!--表格设计-->
+	<table border="2" bordercolor="black" width="900">
+		<tr>
+			<th scope="row" bgcolor="yellow" align="center" colspan="5"><font font-family="Microsoft YaHei" size="5" color="red" font-weight="bold">冲刺929英雄排名榜</font></th>
+		</tr>
+		<tr>
+			<td scope="col" bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="5" color="black">排名</font></td>
+			<td scope="col" bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="5" color="black">单位</font></td>
+			<td scope="col" bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="5" color="black">姓名</font></td>
+			<td scope="col" bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="5" color="black">工号</font></td>
+			<td scope="col" bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="5" color="black">保费</font></td>
+		</tr>
+		<tr>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">1</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">城区收展</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">陈丽珠</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">44170500924</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">6,170,000</font></td>
+		</tr>
+
+		<tr>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">2</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">城区</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">陈钟莲</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">44170500925</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">570,000</font></td>
+		</tr>	
+
+		<tr>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">3</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">高州</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">张凤珍</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">44170500926</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">400,000</font></td>
+		</tr>
+
+		<tr>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">4</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">电白</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">刘院</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">44170500927</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">350,000</font></td>
+		</tr>	
+		
+		<tr>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">5</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">化州</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">方中舞</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">44170500930</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">290,000</font></td>
+		</tr>	
+		
+		<tr>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">6</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">信宜</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">梁培玉</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">44170502325</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">280,000</font></td>
+		</tr>		
+
+		<tr>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">7</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">城区</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">陈钟莲</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">44170500925</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">570,000</font></td>
+		</tr>		
+
+		<tr>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">8</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">城区</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">陈钟莲</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">44170500925</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">570,000</font></td>
+		</tr>		
+
+		<tr>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">9</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">城区</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">陈钟莲</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">44170500925</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">570,000</font></td>
+		</tr>		
+
+		<tr>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">10</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">城区</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">陈钟莲</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">44170500925</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">570,000</font></td>
+		</tr>	
+
+		<tr>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">11</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">城区</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">陈钟莲</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">44170500925</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">570,000</font></td>
+		</tr>	
+
+		<tr>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">12</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">城区</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">陈钟莲</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">44170500925</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">570,000</font></td>
+		</tr>			
+
+		<tr>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">13</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">城区</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">陈钟莲</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">44170500925</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">570,000</font></td>
+		</tr>			
+
+		<tr>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">14</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">城区</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">陈钟莲</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">44170500925</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">570,000</font></td>
+		</tr>			
+
+		<tr>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">15</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">城区</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">陈钟莲</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">44170500925</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">570,000</font></td>
+		</tr>			
+
+		<tr>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">16</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">城区</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">陈钟莲</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">44170500925</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">570,000</font></td>
+		</tr>	
+
+		<tr>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">17</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">城区</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">陈钟莲</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">44170500925</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">570,000</font></td>
+		</tr>			
+
+		<tr>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">18</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">城区</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">陈钟莲</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">44170500925</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">570,000</font></td>
+		</tr>					
+
+		<tr>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">19</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">城区</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">陈钟莲</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">44170500925</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">570,000</font></td>
+		</tr>			
+
+		<tr>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">20</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">城区</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">陈钟莲</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">44170500925</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">570,000</font></td>
+		</tr>			
+	</table>
+
+<!--页脚-->
+	<div id="footer">
+    	<div class="left_footer"><img src="images/footer_logo.jpg"/><br />
+    		<a href="#">Design by--WongBen</a></div>
+    	<div class="right_footer"> <a href="#">首页</a> <a href="#">关于我们</a> <a href="#">服务</a> <a href="#">隐私策略</a> <a href="#">联系我们</a> </div>
+  	</div>  
+</div>
+</body>
+</html>
