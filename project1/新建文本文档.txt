@@ -1,0 +1,16 @@
+https://portal.qiniu.com/bucket/project/resource   图片外链
+
+http://own2qwq7g.bkt.clouddn.com/1.JPG
+
+http://own2qwq7g.bkt.clouddn.com/2.JPG
+
+http://own2qwq7g.bkt.clouddn.com/3.JPG
+
+http://own2qwq7g.bkt.clouddn.com/4.JPG
+
+http://own2qwq7g.bkt.clouddn.com/5.JPG
+
+http://own2qwq7g.bkt.clouddn.com/6.JPG
+
+http://own2qwq7g.bkt.clouddn.com/company_header.jpg    分公司横幅图片
+
