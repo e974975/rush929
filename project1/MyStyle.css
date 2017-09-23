@@ -92,6 +92,17 @@ margin-left: auto;
 background-color:#FFF;
 }
 
+.widths_building{
+clear: none;
+width: 900px;
+height:800px;
+margin-right: auto;
+margin-left: auto;
+background-image:url("http://own2qwq7g.bkt.clouddn.com/building.jpg");
+background-repeat:norepeat;
+background-position:center
+}
+
 
 /*去掉下划线，鼠标经过时有下划线*/
 a{ text-decoration: none;}          
