@@ -1,0 +1,150 @@
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<!--自适应屏幕大小
+	<meta name="viewport" content="width=device-width,height=device-height,inital-scale=1,maximum-scale=1,user-scalable=no;" />
+	-->
+	<title>城区929，加油</title>
+	<link rel="stylesheet" type="text/css" href="MyStyle.css">
+<!-- 以下导入树状图js和CSS-->
+    <link rel="stylesheet" href="jquery.treeview.css" />
+    <script src="lib/jquery.js" type="text/javascript"></script>
+    <script src="lib/jquery.cookie.js" type="text/javascript"></script>
+    <script src="jquery.treeview.js" type="text/javascript"></script>
+<!-- 以上导入树状图js和CSS-->	
+</head>
+<body>
+	<!--用JS图片自适应
+	<img src="images/background.jpg" onload="resizeimg(this,600,1024);"/>
+	-->
+
+<div class="widths_department">    <!--设置两边灰中间白-->
+
+	<div id="container">
+   		<div id="header">
+   		</div>
+  	</div>	
+
+<!---文字左右滚屏-->
+<div id="scroll_div" class="fl"> 
+  		<div id="scroll_begin">
+   			<font color="yellow" size="5">恭喜张凤珍经理获得 <span class="pad_right">10张衡山游门票</span></font>
+   			<font color="yellow" size="5">恭喜陈丽珠经理创佣 <span class="pad_right">10万</span></font>
+   			<font color="yellow" size="5">恭喜刘远经理获得 <span class="pad_right">法国浪漫之旅单人游</span></font>
+   			<font color="yellow" size="5">恭喜方中午经理获得 <span class="pad_right">李某健身俱乐部月票一张</span></font>
+   			<font color="yellow" size="5">恭喜陈钟莲经理获得 <span class="pad_right">区域总监称号</span></font>
+   			<font color="yellow" size="5">恭喜***获得 <span class="pad_right">***奖励</span></font>
+   			<font color="yellow" size="5">恭喜***获得 <span class="pad_right">***奖励</span></font>
+  		</div> 
+  		<div id="scroll_end"></div>
+	<script type="text/javascript" src="MoveEffect.js"></script>
+	</div>
+
+<!--表格设计-->
+	<table border="2" bordercolor="black" width="900" style="table-layout:fixed;word-break:break-all;">
+	<tr>
+
+<!--树状图-->
+	<td spoce="col" rowspan="23" bgcolor="yellow" width="200">
+		<ul id="tree" class="filetree">
+		        <li><span class="folder"><a href="main.html">茂名分公司</a></span>
+		            <ul>
+		                <li><span class="folder"><a href="index.html">冲刺929</a></span>
+		                    <ul>
+		                        <li><span class="folder"><a href="dianbai929.html">电白</a></span></li>
+				                <li><span class="folder"><a href="huazhou929.html">化州</a></span></li>
+				                <li><span class="folder"><a href="gaozhou929.html">高州</a></span></li>
+				                <li><span class="folder"><a href="xinyi929.html">信宜</a></span></li>
+				                <li><span class="folder"><a href="chengqu929.html">城区</a></span></li>
+				                <li><span class="folder"><a href="shouzhan929.html">城区收展</a></span></li>
+		                    </ul>
+		                </li>
+		                <li><span class="folder"><a href="building.html">开门红</a></span>
+		                    <ul>
+		                        <li><span class="folder"><a href="building.html">电白</a></span></li>
+		                        <li><span class="folder"><a href="building.html">化州</a></span></li>
+		                        <li><span class="folder"><a href="building.html">高州</a></span></li>
+		                        <li><span class="folder"><a href="building.html">信宜</a></span></li>
+		                        <li><span class="folder"><a href="building.html">城区</a></span></li>
+		                        <li><span class="folder"><a href="building.html">城区收展</a></span></li>
+		                    </ul>
+		                </li>
+		            </ul>
+		        </li>
+		        <li><span class="folder"><a href="building.html">分公司个险部</a></span>
+		            <ul>
+		                <li><span class="folder"><a href="building.html">人力作战指挥部</a></span></li>
+		                <li><span class="folder"><a href="building.html">业务作战指挥部</a></span></li>
+		                <li><span class="folder"><a href="building.html">收展作战指挥部</a></span></li>
+		                <li><span class="folder"><a href="building.html">新人育成作战指挥部</a></span></li>
+		            </ul>
+		        </li>  
+		        <li><span class="folder"><a href="main.html">返回首页</a></span></li>     
+		    </ul>
+    
+		   <script type="text/javascript">
+		    $("#tree").treeview();
+		   </script>		
+	</td>
+
+<!--数据表-->
+	<td spoce="col" colspan="5">
+		<tr>
+			<td scope="row" bgcolor="yellow" align="center" colspan="5"><font font-family="Microsoft YaHei" size="5" color="red" font-weight="bold">城区KPI排行榜</font></td>
+		</tr>
+		<tr>
+			<td  scope="col" bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="5" color="black">排名</font></td>
+			<td  scope="col" bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="5" color="black">日冲刺目标</font></td>
+			<td  scope="col" bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="5" color="black">达成</font></td>
+			<td  scope="col" bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="5" color="black">进度</font></td>
+			<td  scope="col" bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="5" color="black">缺口</font></td>
+		</tr>
+		<tr>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">1</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">60</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">7.63</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">12.29%</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">52.53</font></td>
+		</tr>
+
+		<tr>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">2</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">76</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">8.81</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">11.59%</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">67.19%</font></td>
+		</tr>	
+		<tr>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">3</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">76</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">8.81</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">11.59%</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">67.19%</font></td>
+		</tr>				
+		<tr>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">4</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">76</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">8.81</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">11.59%</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">67.19%</font></td>
+		</tr>			
+		<tr>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">5</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">76</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">8.81</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">11.59%</font></td>
+			<td bgcolor="yellow" align="center"><font font-family="FangSong_GB2312" size="4" color="black">67.19%</font></td>
+		</tr>			
+	</td>
+	</tr>
+	</table>
+
+<!--页脚-->
+	<div id="footer">
+    	<div class="left_footer"><img src="images/footer_logo.jpg"/><br />
+    		<a href="#">Design by--WongBen</a></div>
+    	<div class="right_footer"> <a href="#">首页</a> <a href="#">关于我们</a> <a href="#">服务</a> <a href="#">隐私策略</a> <a href="#">联系我们</a> </div>
+  	</div>  
+</div>
+</body>
+</html>

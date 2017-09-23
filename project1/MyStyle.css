@@ -103,6 +103,15 @@ background-repeat:norepeat;
 background-position:center
 }
 
+.widths_department{
+clear: none;
+width: 900px;
+height:905px;
+margin-right: auto;
+margin-left: auto;
+background-color: #5A5AAD;
+}
+
 
 /*去掉下划线，鼠标经过时有下划线*/
 a{ text-decoration: none;}          
