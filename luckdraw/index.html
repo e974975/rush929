@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>抽奖</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class='luck-back'>
+		<div class="luck-content ce-pack-end">
+			<div>
+				<p align=center><font size="5" style="font-family: 微软雅黑;color:yellow;">驾乘无忧温泉之旅幸运大抽奖</font></p>
+			</div>
+			<div id="luckuser" class="slotMachine">
+				<div class="slot">
+					<span class="name">姓名</span>
+				</div>
+			</div>
+			<div class="luck-content-btn">
+				<a id="start" class="start" onclick="start()">开始</a>
+			</div>
+			<div class="luck-user">
+				<div class="luck-user-title">
+					<span>中奖名单</span>
+				</div>
+				<ul class="luck-user-list"></ul>
+				<div class="luck-user-btn">
+					<a href="#">中奖人</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/jquery-2.2.1.min.js" type="text/javascript"></script>
+	<script>
+		var xinm = new Array();
+		xinm[0] = "http://own2qwq7g.bkt.clouddn.com/luckdraw13.jpg"
+		xinm[1] = "http://own2qwq7g.bkt.clouddn.com/luckdraw2.jpg"
+		xinm[2] = "http://own2qwq7g.bkt.clouddn.com/luckdraw3.jpg"
+		xinm[3] = "http://own2qwq7g.bkt.clouddn.com/luckdraw4.jpg"
+		xinm[4] = "http://own2qwq7g.bkt.clouddn.com/luckdraw5.jpg"
+		xinm[5] = "http://own2qwq7g.bkt.clouddn.com/luckdraw6.jpg"
+		xinm[6] = "http://own2qwq7g.bkt.clouddn.com/luckdraw7.jpg"
+		xinm[7] = "http://own2qwq7g.bkt.clouddn.com/luckdraw8.jpg"
+		xinm[8] = "http://own2qwq7g.bkt.clouddn.com/luckdraw14.jpg"
+		xinm[9] = "http://own2qwq7g.bkt.clouddn.com/luckdraw10.jpg"
+		xinm[10] = "http://own2qwq7g.bkt.clouddn.com/luckdraw11.jpg"
+		xinm[11] = "http://own2qwq7g.bkt.clouddn.com/luckdraw15.jpg"
+
+		var phone = new Array();
+		phone[0] = "林**"
+		phone[1] = "方**"
+		phone[2] = "麦**"
+		phone[3] = "黄**"
+		phone[4] = "曾**"
+		phone[5] = "余**"
+		phone[6] = "吴**"
+		phone[7] = "雄**"
+		phone[8] = "国**"
+		phone[9] = "杭**"
+		phone[10] = "谢**"
+		phone[11] = "文**"
+	</script>
+	<script src="js/Luckdraw.js" type="text/javascript"></script>
+</body>
+</html>
